@@ -15,7 +15,7 @@ const Chat = ({ location }) =>
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     // const scrollRef = useRef();
-    const url = "localhost:5000";
+    const url = "https://socketio-servers.herokuapp.com/";
 
     useEffect(() =>
     {
