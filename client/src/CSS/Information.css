@@ -1,0 +1,43 @@
+/* .nav {
+  border: 15px solid black;
+  width: 100%;
+} */
+.InfoBar {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  z-index: 1;
+  width: 100%;
+}
+.LeftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  color: white;
+}
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  /* margin-right: 10%; */
+}
+.rightInnerContainer p {
+  color: white;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.onlineIcon {
+  margin-right: 5%;
+}
+img {
+  width: 20px;
+  /* background-color: white; */
+  overflow: hidden;
+}
